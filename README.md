@@ -1,32 +1,34 @@
-<<<<<<< HEAD
-# Indexa
+# Indexa - Frontend Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.3.
+Indexa is a frontend project developed using **Angular** to demonstrate the basics of component creation, styling, and integrating components within the main application. The project is designed to be responsive and visually appealing, following the initial wireframe created in Figma.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features
 
-## Code scaffolding
+- **Base Angular Application**:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+  - Created a new Angular app using `ng new` and customized it by removing default content.
+  - Added a simple `<h1>` inside a `<body>` with a gradient background for initial setup.
 
-## Build
+- **First Component - Container**:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+  - Created the `container` component using:
+    ```bash
+    ng generate component componentes/container
+    ```
+  - This component represents the white container of the application, as designed in the Figma mockup.
+  - Integrated the `container` component into the main app (`app.component.html`) for display on the page.
 
-## Running unit tests
+- **Gradual Learning**:
+  - Experimenting with component usage and adding custom content inside the `container` component.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## How to Run the Project
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-=======
-# FRONTENTexercises
-Here I do exercises to train my front-end code
->>>>>>> 56096261e63ba282eb6f6dd731d14f4ee94e1669
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Leonardo062908/FRONTENTexercises.git
+   cd FRONTENTexercises
+   ```
